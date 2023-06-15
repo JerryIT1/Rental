@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rubik&display=swap');
+
+
+
+.home__container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.home__container-information{
+    margin-left: 9%;
+    padding-top: 5rem;
+    flex-direction: column;
+}
+
+.save{
+    font-size: 4rem;
+}
+
+.deals{
+    color: gray;
+    
+}
+
+.big{
+    color: var(--secondaryColor)
+}
+
+.home__container-information-btn{
+    display: flex;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.btn-book{
+    border: none;
+    background-color: var(--secondaryColor);
+    font-size: 1rem;
+    padding: 1.2rem 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-learn{
+    border: none;
+    background-color: var(--textColor);
+    font-size: 1rem;
+    padding: 1.2rem 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.home_car{
+    width: 90%;
+    max-width: 1000px;
+}

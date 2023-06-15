@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
-import { Navbar } from './Components';
+import { Navbar, Home, Book } from './Components';
+
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Home />
+      <Book />
 {/* 
 Nav
 Home

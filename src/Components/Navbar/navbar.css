@@ -1,21 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&family=Rubik&display=swap');
 
 *{
     padding: 0rem;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 :root{
     --mainColor: rgb(255, 255, 255);
-    --mainColorLight: rgb(255, 194, 82);
-    --secondaryColor: orange;
+    --mainColorLight: #FF381C;
+    --secondaryColor: #FF381C;
     --textColor: black;
 }
 
 header {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     height: 80px;
@@ -24,17 +26,20 @@ header {
     color: var(--mainColor);
 }
 
-header .logo {
-    color: var(--textColor);
+header .Logo {
+    width: 100%;
+    max-width: 200px;
+    margin-left: 10%;
 }
 
 nav{
     justify-content: center;
     display: flex;
     flex-direction: row;
+    padding-left: 5%;
 }
 nav a{
-    margin: 0 1rem;
+    margin: 1rem 1rem;
     color: var(--textColor);
     text-decoration: none;
     position: relative;
@@ -54,10 +59,13 @@ header .nav-btn{
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    left: 20%;
 }
 
 .navbar__container-buttons{
-    justify-content: right;
+    display: flex;
 }
 
 .btn-signin{
@@ -65,7 +73,7 @@ header .nav-btn{
     background-color: none;
     background: none;
     font-size: 1rem;
-    padding: 0 1rem;
+    padding-right: 1rem;
 }
 
 .btn-register{
@@ -74,6 +82,14 @@ header .nav-btn{
     border-radius: 5px;
     font-size: 1rem;
     padding: 0.8rem 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+header .navbar__container-links-buttons2{
+    visibility: hidden;
 }
 
 @media only screen and (max-width: 1024px){
@@ -81,6 +97,15 @@ header .nav-btn{
         visibility: visible;
         opacity: 1;
     }
+
+    header .navbar__container-links-buttons2{
+        visibility: visible;
+    }
+
+    header .navbar__container-links-buttons{
+        visibility: hidden;
+    }
+
 
     header nav{
         position: fixed;
