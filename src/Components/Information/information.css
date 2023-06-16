@@ -1,0 +1,28 @@
+.info__container{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.info__container-header{
+    font-size: 1.5rem;
+}
+
+.info__container-brand{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.info__container-perks{
+    display: flex;
+    flex-direction: row;
+}
+
+.perks-image{
+    width: 7vw;
+    max-width: 300px;
+}
