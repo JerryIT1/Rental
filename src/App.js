@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Navbar, Home, Book } from './Components';
+import { Navbar, Home, Book, Information } from './Components';
 
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Navbar />
       <Home />
       <Book />
+      <Information />
 {/* 
 Nav
 Home

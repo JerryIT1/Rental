@@ -1,0 +1,44 @@
+.book__container{
+    margin-left: 10%;
+}
+
+.book__container-header{
+    padding-bottom: 4%;
+}
+
+.book__container-search{
+    margin-left: 2%;
+}
+
+.dropdown{
+    width: 20vw;
+    height: 10vh;
+    position: relative;
+    user-select: none;
+}
+
+.dropdown .dropdown-btn{
+    padding: 15px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(190, 190, 190);
+}
+
+.dropdown .dropdown-content{
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+}
+
+.dropdown .dropdown-content .dropdown-item{
+    padding: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.dropdown .dropdown-content .dropdown-item:hover{
+    background: grey;
+}
